@@ -39,11 +39,6 @@ The model:
 - **Precision:** Measures the proportion of correctly identified malignant tumors.  
 - **Recall:** Measures how well the model identifies malignant cases.  
 - **F1-Score:** Harmonic mean of precision and recall.  
-
-✅ **Visualization:**  
-- **Loss Curve:** Shows the reduction in cross-entropy loss over epochs.  
-- **Decision Boundary:** Visualizes the model's decision-making ability.  
-
 ---
 
 ## 📊 **Technologies Used**
@@ -66,24 +61,6 @@ The model:
    - Added a **bias term** (intercept) for logistic regression.  
 3. **Split the Dataset:**  
    - **80-20 split**: 80% training, 20% testing.  
-
----
-
-### ✅ **Model Implementation:**
-1. **Logistic Regression from Scratch:**  
-   - Implemented with **NumPy** without using pre-built ML models.  
-2. **Sigmoid Function:**  
-\[
-\sigma(z) = \frac{1}{1 + e^{-z}}
-\]  
-3. **Cross-Entropy Loss:**  
-\[
-\text{Loss} = - \frac{1}{m} \sum \left[ y \cdot \log(\hat{y}) + (1 - y) \cdot \log(1 - \hat{y}) \right]
-\]  
-4. **Gradient Descent:**  
-\[
-W = W - \alpha \cdot \nabla
-\]  
 
 ---
 
